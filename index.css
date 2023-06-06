@@ -1,0 +1,129 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.main-container {
+  width: 100%;
+}
+
+ul.nav {
+  width: 100%;
+  max-width: 973px;
+  margin: 20px auto 20px auto;
+  list-style-type: none;
+  text-align: center;
+}
+
+ul.nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 1.25rem;
+  margin: 20px 0px 0px 0px;
+}
+
+li.list-item-first {
+  background-color: #ff744e;
+  padding: 20px;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 0.938rem;
+  font-family: 'Roboto Mono', monospace;
+}
+
+
+li.list-item-second {
+  margin: 0px 230px 0px 230px;
+  background-color: #5fd3ec;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 0.938rem;
+  font-family: 'Roboto Mono', monospace;
+}
+
+li.list-item-third {
+  background-color: #ffcd6a;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 0.938rem;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.header-container {
+  max-width: 925px;
+  text-align: center;
+  margin: 50px auto 0px auto;
+}
+
+.header-image-container {
+  display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+
+.header-image-container img {
+  border-radius: 50%;
+}
+
+.header-image-explain h2 {
+  font-family: 'Chelsea Market', cursive;
+}
+
+.header-image-explain {
+  padding: 1rem 1rem;
+  vertical-align: top;
+  width: 700px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.738rem;
+  display: inline-block;
+}
+
+.explain-text {
+  width: 100%;
+  max-width: 1036px;
+  text-align: center;
+  margin: 20px auto 0px auto;
+  background-color: #ddb9a3;
+}
+
+.explain-text p {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.630rem;
+  color: #fff;
+  padding: 10px 0px 10px 0px;
+}
+
+.explain-text-second {
+  width: 100%;
+  max-width: 216px;
+  text-align: center;
+  margin: 20px auto 0px auto;
+}
+
+.explain-text-second p {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.638rem;
+  color: #000;
+  padding: 10px 0px 10px 0px;
+}
+
+
+.footer-image-container {
+  margin: 20px 0px 0px 0px;
+  height: 134px;
+}
